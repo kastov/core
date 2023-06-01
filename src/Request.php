@@ -982,7 +982,7 @@ class Request
             $inline_message_id = $data['inline_message_id'] ?? null;
 
             if (($chat_id || $inline_message_id) && in_array($action, $limited_methods, true)) {
-                $timeout = 60;
+                $timeout = 180;
 
                 while (true) {
                     if ($timeout <= 0) {
