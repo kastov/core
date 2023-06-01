@@ -963,6 +963,19 @@ class Request
                 'setChatStickerSet',
                 'deleteChatStickerSet',
                 'setPassportDataErrors',
+                'createForumTopic',
+                'editForumTopic',
+                'closeForumTopic',
+                'reopenForumTopic',
+                'deleteForumTopic',
+                'unpinAllForumTopicMessages',
+                'editGeneralForumTopic',
+                'closeGeneralForumTopic',
+                'reopenGeneralForumTopic',
+                'hideGeneralForumTopic',
+                'pinChatMessage',
+                'unpinChatMessage',
+                'unpinAllChatMessages',
             ];
 
             $chat_id           = $data['chat_id'] ?? null;
